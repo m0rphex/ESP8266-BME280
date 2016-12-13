@@ -3,10 +3,10 @@
 #include <ESP8266WiFi.h>
 #include <ThingSpeak.h>
 
-unsigned long myChannelNumber = 156985;
-const char * myWriteAPIKey = "C545VVIFK0XDELQF";
-const char* ssid = "Tomato24";
-const char* password = "tonttu1234";
+unsigned long myChannelNumber = YOURCHANNERNUMBER;  
+const char * myWriteAPIKey = "YOURAPIKEY";  
+const char* ssid = "YOURSSID";  
+const char* password = "YOURPW";
 
 const char* server = "api.thingspeak.com";  
 WiFiClient client;
